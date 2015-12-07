@@ -2,7 +2,7 @@ import java.rmi.*;
 import java.rmi.server.*;
 
 /**
-  Este programa muestra como invocar a un método remoto
+  Este programa muestra como invocar a un metodo remoto
   para dos objetos que se localizan mediante el registro 
   de nombres.
 */

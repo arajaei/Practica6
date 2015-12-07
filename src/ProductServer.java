@@ -4,13 +4,13 @@ import java.rmi.server.*;
 /**
    Este programa servidor instancia dos objetos remotos,
    los registra en el servicio de nombres y espera que
-   los clientes invoquen a los métodos de los objetos
+   los clientes invoquen a los metodos de los objetos
    remotos.
 */
 public class ProductServer {  
    public static void main(String args[]) {  
       try {  
-         System.out.println("Creación de las implementaciones en el servidor...");
+         System.out.println("Creacion de las implementaciones en el servidor...");
          ProductImpl p1 = new ProductImpl("Tostadora Fagor");
          ProductImpl p2 = new ProductImpl("Microondas Wirlhpool");
 

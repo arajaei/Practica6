@@ -5,8 +5,8 @@ import java.rmi.*;
 */
 public interface Product extends Remote { 
    /**
-     Recoge la descripción de un producto 
-     @return la descripción del producto 
+     Recoge la descripciÃ³n de un producto 
+     @return la descripciÃ³n del producto 
    */
    String getDescription() throws RemoteException;
 }
