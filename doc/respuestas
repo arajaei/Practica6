@@ -1,0 +1,16 @@
+1.  Implementar una aplicación cliente/servidor usando *Java RMI* 
+    en la cual el servicio que ofrece el objeto remoto es un método 
+    que suma los elementos de dos arrays. 
+    El cliente ha de instanciar dos arrays de enteros e invocar 
+    al método remoto para que realice la suma y devuelva el array resultado. 
+-------------------------------------------------
+
+
+
+*********************************************************************************************
+2. Utilizar el método *currentTimeMillis()* de la clase System para establecer un
+   cronómetro en el cliente del ejercicio anterior ¿Cuánto tiempo consume la implementación?
+
+
+
+-------------------------------------------------
