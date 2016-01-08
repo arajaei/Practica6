@@ -4,13 +4,22 @@
     El cliente ha de instanciar dos arrays de enteros e invocar 
     al método remoto para que realice la suma y devuelva el array resultado. 
 -------------------------------------------------
-
+    Ya estan realizado el los ficheros 
+    
+    1-product.java
+    2-productCliente.java
+    3-productServer.java
+    4-productImpl.java
 
 
 *********************************************************************************************
 2. Utilizar el método *currentTimeMillis()* de la clase System para establecer un
    cronómetro en el cliente del ejercicio anterior ¿Cuánto tiempo consume la implementación?
 
-
+   El tiempo consumido en 10 proeva estaba entre 275 ms y 358 ms (Tiempo de busqueda en el registry y encontrar metodo y utilizalo para una suma )
 
 -------------------------------------------------
+informacion aprendido :
+
+ RMI (Remote Method Invocation)
+ Orb (Object request broker)

@@ -24,4 +24,15 @@ public class ProductImpl extends UnicastRemoteObject implements Product {
       }
       return "Este objeto es un/a " + name + ". Comprame!";
    }
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ public int[]  sum(int[] a,int[] b) throws RemoteException
+  {
+     int  result[]=new int[a.length];
+     int i;
+     for(i=0;i<a.length;i++)
+             result[i]=a[i]+b[i];
+     return result;
+  }
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@    
+    
 }

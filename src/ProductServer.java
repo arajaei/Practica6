@@ -11,14 +11,20 @@ public class ProductServer {
    public static void main(String args[]) {  
       try {  
          System.out.println("Creacion de las implementaciones en el servidor...");
-         ProductImpl p1 = new ProductImpl("Tostadora Fagor");
-         ProductImpl p2 = new ProductImpl("Microondas Wirlhpool");
+//         ProductImpl p1 = new ProductImpl("Tostadora Fagor");
+//         ProductImpl p2 = new ProductImpl("Microondas Wirlhpool");
+           ProductImpl p1 = new ProductImpl("Metodos de matematica");
 
          System.out.println("Registrando los objetos remotos ...");
-         Naming.rebind("tostadora", p1);
-         Naming.rebind("microndas", p2);
+           Naming.rebind("sum", p1);
+//         Naming.rebind("microndas", p2);
 
          System.out.println("Esperando por invocaciones de los clientes...");
+      //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+      
+      
+      
+      //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
       }
       catch(Exception e) {  
          e.printStackTrace();

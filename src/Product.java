@@ -9,4 +9,7 @@ public interface Product extends Remote {
      @return la descripción del producto 
    */
    String getDescription() throws RemoteException;
+   
+   int[]  sum(int [] a, int[] b)  throws RemoteException;
+    
 }
